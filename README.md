@@ -9,17 +9,15 @@ We are developping an ultra lightweight Javascript library for I'm Fine.
 ## Modals
 
 To declare a modal, simply use the block of HTML. The modal will be initalized at load.
-`
-<a href="#" data-type="modal" data-target="#mymodal">trigger modal</a>
+
+`<a href="#" data-type="modal" data-target="#mymodal">trigger modal</a>
 
 <section class="modal" id="mymodal" tabindex="-1" role="dialog">
 
   <div class="modal-dialog">
   
-    <header class="modal-header">
-      
+    <header class="modal-header">      
       <h2>Modal title</h2>
-    
     </header>
     
     <main class="modal-main">
@@ -36,5 +34,4 @@ To declare a modal, simply use the block of HTML. The modal will be initalized a
   
   </div>
 
-</section>
-`
+</section>`
