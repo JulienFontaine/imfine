@@ -60,16 +60,16 @@
 
           // Setup modal close on click outside
           modal.addEventListener('click', function(event) {
-            
+
             // Close if we clicked outside the modal dialog
             var modalDialog = modal.querySelector('.modal-dialog');
-            
+
             if (modalDialog != null) {
-              
+
               modal.addEventListener('click', function(event) {
-                
-                if (event.target != modalDialog) {
-                  
+
+                if (!modalDialog.contains(event.target)) {
+
                   dismissModal();
                 }
               });
